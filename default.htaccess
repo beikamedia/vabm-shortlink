@@ -1,0 +1,15 @@
+ErrorDocument 404 /index.php
+ErrorDocument 403 /index.php
+ErrorDocument 500 /index.php
+
+# Prevents directory listing
+Options -Indexes
+
+RewriteEngine on
+RewriteBase /
+
+#URL Shorter Interpreter
+RewriteRule ^([A-Za-z0-9]+)$ ./?page=$1 [L]
+RewriteRule ^([A-Za-z0-9]+)/$ ./?page=$1 [L]
+#JA Link Interpreter
+RewriteRule ^([^/]+)/$ ./?page=$1 [L]

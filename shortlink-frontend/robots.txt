@@ -1,0 +1,35 @@
+# Notice: Crawling ShortLink is prohibited unless you have express written
+
+User-agent: baiduspider
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /
+
+User-agent: msnbot
+Disallow: /
+
+User-agent: Naverbot
+Disallow: /
+
+User-agent: seznambot
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: teoma
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: Yeti
+Disallow: /
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: *
+Disallow: /
+
